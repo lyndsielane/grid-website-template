@@ -1,13 +1,13 @@
 .parent {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-rows: repeat(16, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
 
 .div1 {
-  grid-area: 1 / 1 / 2 / 9;
+  grid-area: 1 / 1 / 1 / 9;
   background-color: #3d2b56;
   width: 100%;
   display: flex;
@@ -30,25 +30,30 @@
 }
 
 .div2 {
-  grid-area: 4 / 2 / 9 / 7;
+  grid-area: 6 / 2 / 17 / 7;
   background-color: #ccf5ac;
   width: 100%;
   height: 100%;
 }
 .div3 {
-  grid-area: 4 / 1 / 9 / 2;
+  grid-area: 6 / 1 / 17 / 2;
   background-color: #808a9f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0px 5px;
 }
 .div4 {
-  grid-area: 2 / 1 / 4 / 9;
+  grid-area: 2 / 1 / 6 / 9;
   width: 100%;
 }
 
 .div4 img {
   width: 100%;
+  height: 100%;
 }
 
 .div5 {
-  grid-area: 4 / 7 / 9 / 9;
+  grid-area: 6 / 7 / 17 / 9;
   background-color: #bad29f;
 }
