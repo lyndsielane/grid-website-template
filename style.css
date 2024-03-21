@@ -17,8 +17,18 @@ h6 {
   font-family: "DM Serif Display", serif;
 }
 
-p {
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p,
+ul {
   font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
 }
 
 /*Nav Bar*/
@@ -37,6 +47,7 @@ p {
 }
 
 .div1 ul {
+  font-size: 1.2rem;
   list-style: none;
   display: flex;
 }
@@ -104,6 +115,16 @@ p {
 .div5 {
   grid-area: 5 / 7 / 12 / 9;
   background-color: #bee3db;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog img {
+  width: 375px;
 }
 
 /*Footer*/
