@@ -115,16 +115,14 @@ ul {
 .div5 {
   grid-area: 5 / 7 / 12 / 9;
   background-color: #bee3db;
-}
-
-.blog {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 
-.blog img {
-  width: 375px;
+.div5 img {
+  width: 350px;
 }
 
 /*Footer*/
@@ -141,4 +139,9 @@ ul {
 
 .footLinks {
   display: flex;
+  justify-content: space-around;
+}
+
+.social i {
+  align-content: space-between;
 }
