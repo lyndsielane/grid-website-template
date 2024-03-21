@@ -88,3 +88,7 @@
   width: 300px;
   padding: 0px 20px;
 }
+
+.footLinks {
+  display: flex;
+}
