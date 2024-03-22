@@ -67,24 +67,24 @@ ul {
 }
 
 .feature-imgs {
-  width: fit-content;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .feature-imgs img {
-  width: 300px;
+  max-width: 250px;
   padding: 0px 20px;
 }
 
 .img-1 {
   float: right;
-  height: 300px;
+  max-height: 300px;
 }
 
 .img-2 {
   float: left;
-  height: 300px;
+  max-height: 300px;
 }
 
 /*Aside - Ad Area*/
@@ -96,6 +96,10 @@ ul {
   flex-direction: column;
   justify-content: space-around;
   padding: 0px 5px;
+}
+
+.div3 img {
+  max-width: 300px;
 }
 
 /*Header Area*/
@@ -137,11 +141,24 @@ ul {
   color: white;
 }
 
+.div6 ul {
+  padding: 20px;
+}
+
 .footLinks {
   display: flex;
   justify-content: space-around;
+  text-align: center;
 }
 
 .social i {
   margin: 10px;
+}
+
+/*Media Queries*/
+
+@media (max-width: 1600px) {
+  .div3 {
+    display: none;
+  }
 }
