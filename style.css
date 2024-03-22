@@ -158,7 +158,34 @@ ul {
 /*Media Queries*/
 
 @media (max-width: 1600px) {
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(12, fit-content);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .div1 {
+    grid-area: 1 / 1 / 2 / 9;
+  }
+  .div2 {
+    grid-area: 4 / 1 / 10 / 9;
+  }
   .div3 {
+    grid-area: 4 / 1 / 10 / 2;
     display: none;
+  }
+  .div4 {
+    grid-area: 2 / 1 / 4 / 9;
+  }
+  .div5 {
+    grid-area: 10 / 1 / 12 / 9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .div6 {
+    grid-area: 12 / 1 / 13 / 9;
   }
 }
