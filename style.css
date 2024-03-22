@@ -69,7 +69,6 @@ ul {
 .feature-imgs {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .feature-imgs img {
@@ -187,5 +186,11 @@ ul {
   }
   .div6 {
     grid-area: 12 / 1 / 13 / 9;
+  }
+}
+
+@media (max-width: 1200px) {
+  .div5 {
+    display: none;
   }
 }
